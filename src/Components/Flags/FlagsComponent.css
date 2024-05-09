@@ -5,10 +5,9 @@
   overflow: hidden;
   margin: 1rem;
 }
-
 .flagComponent {
   border: 0.5px solid rgb(151, 151, 151);
-  padding: 0.5rem;
+  padding: 0.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
