@@ -11,6 +11,8 @@ const FlagsComponent = () => {
       const response = await axios.get(apiEndPoint);
       if (response) {
         setData(response.data);
+      } else {
+        console.log("error fetching the api");
       }
     } catch (e) {
       console.log(e);
